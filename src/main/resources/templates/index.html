@@ -12,7 +12,8 @@
 		<a href="/save/0" class="btn btn-primary">Agregar</a>
 	</div>
 	<h2 th:if="${libros.isEmpty()}">No hay libros disponibles</h2>
-	<div th:if="${!libros.isEmpty()}" class="panel-heading"><h3>Lista de Libros </h3></div>
+	<div th:if="${!libros.isEmpty()}" class="panel-heading">
+		<h3>Lista de Libros </h3>
 		<table class="table">
 			<thead>
 				<tr>
@@ -41,6 +42,7 @@
 				</tr>
 			</tbody>
 		</table>
+		</div>
 	</div>
 </body>
 </html>
