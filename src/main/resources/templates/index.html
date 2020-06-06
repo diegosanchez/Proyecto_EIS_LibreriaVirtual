@@ -7,8 +7,12 @@
 </head>
 <body>
 	<div class="container mt-4">
-	
-	<div  class="panel-heading"><h3>Lista de Libros </h3></div>
+	<br>
+	<div>
+		<a href="/save/0" class="btn btn-primary">Agregar</a>
+	</div>
+	<h2 th:if="${libros.isEmpty()}">No hay libros disponibles</h2>
+	<div th:if="${!libros.isEmpty()}" class="panel-heading"><h3>Lista de Libros </h3></div>
 		<table class="table">
 			<thead>
 				<tr>
