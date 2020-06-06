@@ -1,5 +1,4 @@
 language: java
 
-install: true
-script:
-- mvn install
+before_install:
+- chmod +x mvnw
