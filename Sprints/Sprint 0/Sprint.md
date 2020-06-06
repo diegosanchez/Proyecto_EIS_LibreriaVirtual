@@ -1,4 +1,4 @@
-1- Preparar el entorno.
+## 1- Preparar el entorno.
 
 Queremos preparar el entorno de trabajo, para iniciar la implementacion.
 - Prioridad: alta
@@ -6,7 +6,7 @@ Queremos preparar el entorno de trabajo, para iniciar la implementacion.
 - Estado : En proceso
 
 
-2- Agregar Integracion Continua.
+## 2- Agregar Integracion Continua.
 
 Queremos agregar integracion continua, para testear automaticamente ante cada cambio.
 
@@ -15,7 +15,7 @@ Queremos agregar integracion continua, para testear automaticamente ante cada ca
 - Estado: En proceso
 
 
-3- Crear Visual Story Mapping.
+## 3- Crear Visual Story Mapping.
 
 Queremos realizar un vsm para tener una vision mas clara del proyecto a realizar.
 - Prioridad: Alta  
