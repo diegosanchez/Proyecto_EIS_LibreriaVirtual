@@ -1,3 +1,9 @@
+
+
+# PLANIFICACION 3/6/2020 al 10/6/20
+
+Se decidio mostrar en la proxima demo, que al listar los libros, se pueda visualizar los libros en pantalla.
+
 ## 1- Visualizar todos los libros que estan cargados.
 
 Como administrador
