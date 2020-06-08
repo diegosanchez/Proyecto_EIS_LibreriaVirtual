@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.example.demo.interfaceService.IlibroService;
+import com.example.demo.interfaceService.ILibroService;
 import com.example.demo.modelo.Libro;
 
 @Controller
@@ -16,7 +16,7 @@ import com.example.demo.modelo.Libro;
 public class Controlador {
 	
 	@Autowired
-	private IlibroService service;
+	private ILibroService service;
 	
 	@GetMapping("/")
 	public String listar(Model model) {

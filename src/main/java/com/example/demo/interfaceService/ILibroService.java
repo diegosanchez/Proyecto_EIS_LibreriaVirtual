@@ -5,9 +5,9 @@ import java.util.Optional;
 
 import com.example.demo.modelo.Libro;
 
-public interface IlibroService {
+public interface ILibroService {
 	public List<Libro>listar();
 	public Optional<Libro>listarId(int id);
-	public int save(Libro p);
+	public Libro save(Libro p);
 	public void delete(int id);
 }

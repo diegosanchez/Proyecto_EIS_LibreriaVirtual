@@ -6,12 +6,12 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.interfaceService.IlibroService;
+import com.example.demo.interfaceService.ILibroService;
 import com.example.demo.interfaces.ILibro;
 import com.example.demo.modelo.Libro;
 
 @Service
-public class LibroService implements IlibroService{
+public class LibroService implements ILibroService{
 
 	@Autowired
 	private ILibro data;
@@ -28,9 +28,9 @@ public class LibroService implements IlibroService{
 	}
 
 	@Override
-	public int save(Libro p) {
+	public Libro save(Libro p) {
 		// TODO Auto-generated method stub
-		return 0;
+		return null;
 	}
 
 	@Override
