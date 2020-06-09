@@ -9,13 +9,13 @@
 <body>
 	<div class="container mt-4">
 	<br>
-	<div>
-		<a href="/save/0" class="btn btn-primary">Agregar</a>
+	<div class = "agregar">
+		<a href="/save/0" class="btn btn-primary" > Agregar</a>
 	</div>
-	<h2 th:if="${libros.isEmpty()}">No hay libros disponibles</h2>
+	<h2 th:if="${libros.isEmpty()}" class = "titulo">No hay libros disponibles</h2>	
 	<div th:if="${!libros.isEmpty()}" class="panel-heading">
-		<h3>Lista de Libros </h3>
-		<table class="table">
+		<h1 class = "titulo">Lista de Libros</h1>
+		<table class="table" >
 			<thead>
 				<tr>
 					<th>ISBN</th>

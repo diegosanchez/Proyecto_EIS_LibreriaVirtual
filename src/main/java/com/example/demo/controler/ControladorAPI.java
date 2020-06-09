@@ -26,6 +26,4 @@ public class ControladorAPI {
 		}
 		return ResponseEntity.ok(libros);
 	}
-	
-
 }
