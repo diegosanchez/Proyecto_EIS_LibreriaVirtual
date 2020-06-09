@@ -38,6 +38,9 @@ Donde habrá un administrador que podrá hacer todo lo descrito anteriormente y 
 
 - Trello: Para crear las historias de usuario y el VSM.
 
+- Bootstrap: Biblioteca para diseñar la página web.
+
+- Thymeleaf: Libreria para implementar HTML/CSS
 
 
 
