@@ -10,7 +10,13 @@
 	<div class="container mt-4">
 	<br>
 	<div class = "agregar">
+		<div class="navbar">
 		<a href="/save/0" class="btn btn-primary" > Agregar</a>
+		<form class="form-inline">
+			<input type="search" name="txtBuscar" class="form-control">
+			<input type="submit" name="accion" value="Buscar" class="btn btn-success">
+		</form>
+		</div> 
 	</div>
 	<h2 th:if="${libros.isEmpty()}" class = "titulo">No hay libros disponibles</h2>	
 	<div th:if="${!libros.isEmpty()}" class="panel-heading">

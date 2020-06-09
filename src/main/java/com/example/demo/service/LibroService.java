@@ -17,12 +17,12 @@ public class LibroService implements ILibroService{
 	private ILibro data;
 	
 	@Override
-	public List<Libro> listar() {
+	public List<Libro> listarTodos() {
 		return (List<Libro>)data.findAll();
 	}
 
 	@Override
-	public Optional<Libro> listarId(int id) {
+	public Optional<Libro> listarPorId(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -20,7 +20,7 @@ public class Controlador {
 	
 	@GetMapping("/")
 	public String listar(Model model) {
-		List<Libro>libros=service.listar();
+		List<Libro>libros=service.listarTodos();
 		model.addAttribute("libros", libros);
 		return "index";
 	}

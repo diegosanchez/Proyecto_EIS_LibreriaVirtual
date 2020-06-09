@@ -20,7 +20,7 @@ public class ControladorAPI {
 	
 	@GetMapping("libros")
 	public ResponseEntity<List<Libro>> getLibros() {
-		List<Libro> libros = service.listar() ;
+		List<Libro> libros = service.listarTodos() ;
 		if (libros.isEmpty()) {
 			return ResponseEntity.noContent().build() ;
 		}
