@@ -26,9 +26,9 @@ Puntos totales de sprint = 13
 
 ## RETROSPECTIVA 10-6-2020 Fin de Sprint 1
 
-Se llego a realizar a tiempo la demo que teniamos planeado mostrar.
+Se llegó a realizar a tiempo la demo que teniamos planeado mostrar.
 
-La comucion entre los miembros del equipo, fue la esperada. Cada uno llego a realizar las tareas en tiempo y forma.
+La comunicación entre los miembros del equipo, fue la esperada. Cada uno llegó a realizar las tareas en tiempo y forma.
 
 
 
@@ -37,6 +37,6 @@ Problemas:
   - Tuvimos inconvenientes con la herramienta elegida para llevar a cabo el proyecto, pero logramos solucionarlos. 
   - No llegamos a realizar los test de aceptacion.
 
-Como no se llego a completar la user tecnica a tiempo de CI, decidimos realizarla en el siguiente sprint.
+Como no se llegó a completar la user tecnica a tiempo de CI, decidimos realizarla en el siguiente sprint.
 
 
