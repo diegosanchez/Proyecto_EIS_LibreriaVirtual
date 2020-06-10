@@ -12,7 +12,7 @@ para mostrarlos en pantalla
 
 - Prioridad : Alta
 - Estimado: 8
-- Estado: En proceso
+- Estado: Finalizado
 
 
 
