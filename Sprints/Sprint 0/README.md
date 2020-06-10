@@ -3,7 +3,7 @@
 Queremos preparar el entorno de trabajo, para iniciar la implementacion.
 - Prioridad: alta
 - Estimado: 3
-- Estado : En proceso
+- Estado : Finalizado
 
 
 ## 2- Agregar Integracion Continua.
