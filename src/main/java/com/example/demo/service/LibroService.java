@@ -28,9 +28,13 @@ public class LibroService implements ILibroService{
 	}
 
 	@Override
-	public Libro save(Libro p) {
-		// TODO Auto-generated method stub
-		return null;
+	public int save(Libro libro) {
+		int res= 0;
+		Libro l= data.save(libro);
+		if(!l.equals(null)) {
+			res=1;
+		}
+		return res;
 	}
 
 	@Override

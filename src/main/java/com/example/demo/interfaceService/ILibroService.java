@@ -8,6 +8,6 @@ import com.example.demo.modelo.Libro;
 public interface ILibroService {
 	public List<Libro>listarTodos();
 	public Optional<Libro>listarPorId(int id);
-	public Libro save(Libro p);
+	public int save(Libro p);
 	public void delete(int id);
 }
