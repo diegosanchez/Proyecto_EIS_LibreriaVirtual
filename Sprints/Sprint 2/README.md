@@ -39,9 +39,19 @@ Para que estos dejen de aparecer en pantalla
 
 ## 4- Configurar entorno
 
-- Como desarrollador 
-- Quiero implementar integración continua
+Como desarrollador 
+Quiero implementar integración continua
 
 Prioridad : Normal
 Estimado: 5
 Estado: En proceso
+
+## 5- Crear un grafico de velocidad
+
+Como programador 
+Quiero tener un cuadro de velocidad
+Para saber como nos esta yendo en las sprints
+
+Prioridad : Normal
+Estimado: 3
+Estado: Finalizada
