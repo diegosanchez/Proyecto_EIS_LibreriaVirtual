@@ -8,8 +8,8 @@ Quiero registrar un libro
 Para cargarlo en la base de datos
 
 - Prioridad: Alta
-- Estimado: 13
-- Estado: En proceso
+- Estimado: 8
+- Estado: Finalizada
 
 
 
@@ -42,9 +42,9 @@ Para que estos dejen de aparecer en pantalla
 Como desarrollador 
 Quiero implementar integración continua
 
-Prioridad : Normal
-Estimado: 5
-Estado: En proceso
+- Prioridad : Normal
+- Estimado: 5
+- Estado: En proceso
 
 ## 5- Crear un grafico de velocidad
 
@@ -52,6 +52,6 @@ Como programador
 Quiero tener un cuadro de velocidad
 Para saber como nos esta yendo en las sprints
 
-Prioridad : Normal
-Estimado: 3
-Estado: Finalizada
+- Prioridad : Normal
+- Estimado: 3
+- Estado: Finalizada
