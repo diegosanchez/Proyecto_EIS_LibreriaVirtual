@@ -17,7 +17,7 @@ import com.example.demo.modelo.Libro;
 
 
 @Controller
-@RequestMapping
+@RequestMapping()
 public class Controlador {
 	
 	@Autowired
@@ -37,7 +37,7 @@ public class Controlador {
 	}
 	
 	@PostMapping("/save")
-	public String save(@Valid Libro libro, Model model) {
+	public String guardar(@Valid Libro libro, Model model) {
 		service.save(libro);
 		return "redirect:/";
 	}
