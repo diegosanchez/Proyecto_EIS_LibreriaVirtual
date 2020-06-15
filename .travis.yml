@@ -2,3 +2,6 @@ language: java
 
 service: 
   - mysql
+
+script:
+- ./mvnw clean install -B
